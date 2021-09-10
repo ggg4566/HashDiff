@@ -1,0 +1,69 @@
+﻿生成启动时间为 2021/9/10 18:12:42。
+     1>项目“C:\tool\HashDiff\HashDiff\HashDiff.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\HashDiff.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\HashDiff.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\HashDiff.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\HashDiff.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp crc32.cpp HashCalc.cpp HashCompare.cpp HashDiff.cpp HashDiffDlg.cpp md5.cpp ReadMe.cpp Search.cpp sha1.cpp sha256.cpp
+         common.cpp
+         crc32.cpp
+     1>crc32.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+         HashCalc.cpp
+         HashCompare.cpp
+     1>HashCompare.cpp(394): warning C4018: “>=”: 有符号/无符号不匹配
+     1>HashCompare.cpp(401): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(283) : 参见“wcscpy”的声明
+         HashDiff.cpp
+         HashDiffDlg.cpp
+         md5.cpp
+     1>md5.cpp(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>md5.cpp(107): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>md5.cpp(133): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>md5.cpp(134): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>md5.cpp(135): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         ReadMe.cpp
+         Search.cpp
+     1>Search.cpp(314): warning C4018: “>=”: 有符号/无符号不匹配
+     1>Search.cpp(321): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(283) : 参见“wcscpy”的声明
+         sha1.cpp
+     1>sha1.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>sha1.cpp(113): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>sha1.cpp(114): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>sha1.cpp(115): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         sha256.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\HashDiff.res" HashDiff.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\tool\HashDiff\Release\HashDiff.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\HashDiff.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\tool\HashDiff\Release\HashDiff.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\tool\HashDiff\Release\HashDiff.lib" /MACHINE:X86 Release\HashDiff.res
+         Release\common.obj
+         Release\crc32.obj
+         Release\HashCalc.obj
+         Release\HashCompare.obj
+         Release\HashDiff.obj
+         Release\HashDiffDlg.obj
+         Release\md5.obj
+         Release\ReadMe.obj
+         Release\Search.obj
+         Release\sha1.obj
+         Release\sha256.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         HashDiff.vcxproj -> C:\tool\HashDiff\Release\HashDiff.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\tool\HashDiff\Release\HashDiff.exe;#1" /manifest Release\HashDiff.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\HashDiff.unsuccessfulbuild”。
+         正在对“Release\HashDiff.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\tool\HashDiff\HashDiff\HashDiff.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.15
